@@ -1,0 +1,45 @@
+header {
+  background-color: black;
+  text-align: left;
+}
+header #left {
+  display: inline-block;
+  margin-left: 19.85%;
+  margin-top: 0.96%;
+  margin-bottom: 0.96%;
+}
+header #left a img {
+  size: 1000%;
+}
+header #right {
+  display: inline-block;
+  position: absolute;
+  right: 30%;
+}
+header #right ul {
+  list-style: none;
+  width: 159%;
+}
+header #right ul li {
+  padding: 6% 3%;
+  display: inline-block;
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  font-size: 93%;
+  font-weight: 700;
+  color: white;
+}
+header #right ul li a:link {
+  text-decoration: none;
+  color: white;
+}
+header #right ul li a:hover {
+  color: #1ed760;
+}
+header #right ul li:hover a {
+  color: #1ed760;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}/*# sourceMappingURL=banner.css.map */

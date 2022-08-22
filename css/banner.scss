@@ -1,0 +1,46 @@
+header{
+    background-color: black;
+    text-align: left;
+    #left{
+        display: inline-block;
+        margin-left: 19.85%;
+        margin-top: 0.96%;
+        margin-bottom: 0.96%;
+        a{
+            img{
+                size: 1000%;
+            }
+        }
+    }
+    #right{
+        display: inline-block;
+        position: absolute;
+        right: 30%;
+        ul{
+            list-style: none;
+            width: 159%;
+            li{
+                padding: 6% 3%;
+                display: inline-block;
+                font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+                font-size: 93%;
+                font-weight: 700;
+                color: white;
+                a:link{
+                    text-decoration: none;
+                    color: white;
+                }
+                a:hover{
+                    color: #1ed760;
+                }
+            }
+            li:hover a{
+                color: #1ed760;
+            }
+        }
+    }
+}
+*{
+    padding: 0;
+    margin: 0;
+}
