@@ -1,28 +1,22 @@
 header{
     background-color: black;
-    text-align: left;
-    #left{
-        display: inline-block;
-        margin-left: 19.85%;
-        margin-top: 0.96%;
-        margin-bottom: 0.96%;
-        a{
-            img{
-                size: 1000%;
-            }
-        }
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 27.5%;
+    a{
+        cursor: pointer;
+        margin-right: auto;
     }
     #right{
-        display: inline-block;
-        position: absolute;
-        right: 30%;
+        width: 50%;
+        text-align: center;
         ul{
             list-style: none;
-            width: 159%;
             li{
-                padding: 6% 3%;
+                padding: 5.22% 3%;
                 display: inline-block;
-                font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+                font-family: Helvetica,Arial,sans-serif;
                 font-size: 93%;
                 font-weight: 700;
                 color: white;
@@ -43,4 +37,17 @@ header{
 *{
     padding: 0;
     margin: 0;
+}
+.main{
+    display: flex;
+    #block-left{
+        
+    }
+    #block-right{
+        width: 20%;
+        #content{
+        
+            background-image: url("https://i.scdn.co/image/ab678e040000ed3a01867bcd60d82286e34b9746");
+        }
+    }
 }
