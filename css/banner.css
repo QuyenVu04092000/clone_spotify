@@ -10,7 +10,7 @@ header a {
   margin-right: auto;
 }
 header #right {
-  width: 50%;
+  width: 80%;
   text-align: center;
 }
 header #right ul {
@@ -41,11 +41,23 @@ header #right ul li:hover a {
 }
 
 .main {
+  background-color: #993399;
   display: flex;
+  align-items: center;
+  padding: 1.5% 27.5%;
+}
+.main #block-left {
+  color: white;
 }
 .main #block-right {
-  width: 20%;
+  width: 90%;
 }
 .main #block-right #content {
   background-image: url("https://i.scdn.co/image/ab678e040000ed3a01867bcd60d82286e34b9746");
+  background-position: center center;
+  width: 100%;
+  padding-top: 100%;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
 }/*# sourceMappingURL=banner.css.map */
